@@ -1,0 +1,19 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri May 24 15:43:44 2024"
+  rime_version: 1.8.5
+patch:
+  "style/horizontal": true  # 水平排列
+  "style/inline_preedit": true  # 单行显示，false双行显示
+  "style/color_scheme": ink
+  "style/font_face": "LXGW WenKai:bold"
+  # "style/font_face": "Source Han Sans"
+  "style/font_point": 14
+
+  app_options:  # 在以下列表软件中，RIME默认为英文模式
+    pwsh.exe:
+      ascii_mode: true
+    cmd.exe:
+      ascii_mode: true

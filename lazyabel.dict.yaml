@@ -1,0 +1,54 @@
+# encoding: utf-8
+#
+---
+name: lazyabel
+version: "2024.5.24"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - luna_pinyin
+  - luna_pinyin.extended
+  - luna_pinyin.hanyu
+  - luna_pinyin.poetry
+  - luna_pinyin.cn_en
+
+  - dicts/animal
+  - dicts/IT
+  - dicts/place_and_people
+  - dicts/symbols
+  - dicts/chinese_classic
+...
+
+番劇	fan ju	4
+紫垣	zi huan	6
+紫薇垣	zi wei huan	6
+垣	huan	8
+蒐	sou	4
+范數	fan shu	4
+丈育	zhang yu	3
+殘差	can cha	3
+前馈	qian kui	2
+逮蝦戶	dai xia hu	3
+績點	ji dian	4
+掩码	yan ma	1
+歌照唱舞照跳	ge zhao chang wu zhao tiao	2
+飯點	fan dian	4
+底料	di liao	3
+師父	shi fu	3
+師傅	shi fu	4
+師兄	shi xiong	3
+師侄	shi zhi	5
+顶盔贯甲	ding kui guan jia	1
+裝彈槍管獰猛龍	zhuang dan qiang guan ning meng long	1
+裝彈槍管檸檬茶	zhaung dan qiang guan ning meng cha	1
+
+緊箍	jin gu	5
+金箍	jin gu	5
+禁箍	jin gu	5
+廣智	guang zhi	2
+廣謀	guang mou	2
+金池	jin chi	2
+虎先鋒	hu xian feng	2
+黃風	huang feng	2
+
+Please let me know if you have any questions.	pq	1

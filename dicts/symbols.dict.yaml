@@ -1,0 +1,190 @@
+# Print some symbols in Rime
+# encoding: utf-8
+
+---
+name: symbols
+version: "2024-06-24"
+sort: original
+...
+
+Α	alpha
+𝛢	alpha
+α	alpha
+𝛼	alpha
+
+Β	beta
+𝛣	beta
+β	beta
+𝛽	beta
+
+Γ	gamma
+𝛤	gamma
+γ	gamma
+𝛾	gamma
+
+Δ	delta
+𝛥	delta
+δ	delta
+𝛿	delta
+
+Ε	epsilon
+𝛦	epsilon
+ε	epsilon
+𝜀	epsilon
+ϵ	epsilon
+𝜖	epsilon
+
+Ζ	zeta
+𝛧	zeta
+ζ	zeta
+𝜁	zeta
+
+Η	eta
+𝛨	eta
+η	eta
+𝜂	eta
+
+Θ	theta
+𝛩	theta
+ϴ	theta
+𝛳	theta
+θ	theta
+𝜃	theta
+ϑ	theta
+𝜗	theta
+
+Ι	iota
+𝛪	iota
+ι	iota
+𝜄	iota
+
+Κ	kappa
+𝛫	kappa
+κ	kappa
+𝜅	kappa
+ϰ	kappa
+𝜘	kappa
+
+
+Λ	lambda
+𝛬	lambda
+λ	lambda
+𝜆	lambda
+
+Μ	mu
+μ	mu
+𝛭	mu
+𝜇	mu
+
+Ν	nu
+ν	nu
+𝑁	nu
+𝜈	nu
+
+Ξ	xi
+𝛯	xi
+ξ	xi
+𝜉	xi
+
+Ο	omicron
+𝛰	omicron
+ο	omicron
+𝜊	omicron
+
+Π	pi
+π	pi
+𝛱	pi
+𝜋	pi
+ϖ	pi
+
+Ρ	rho
+𝛲	rho
+ρ	rho
+𝜌	rho
+ϱ	rho
+𝜚	rho
+
+Σ	sigma
+σ	sigma
+𝛴	sigma
+𝜎	sigma
+ς	sigma
+
+Τ	tau
+𝛵	tau
+τ	tau
+𝜏	tau
+
+Υ	upsilon
+𝛶	upsilon
+υ	upsilon
+𝜐	upsilon
+
+Φ	phi
+𝛷	phi
+φ	phi
+𝜑	phi
+ϕ	phi
+𝜙	phi
+
+Χ	chi
+χ	chi
+𝛸	chi
+𝜒	chi
+
+Ψ	psi
+𝛹	psi
+ψ	psi
+𝜓	psi
+
+Ω	omega
+𝛺	omega
+ω	omega
+𝜔	omega
+
+Ϝ	digamma
+ϝ	digamma
+
+א	aleph
+
+∂	partial
+∇	nabla
+∞	infty
+ℵ	aleph
+√	sqrt
+√	surd
+±	pm
+×	times
+÷	div
+∘	circ
+⊕	oplus
+⊗	otimes
+∅	empty
+∈	in
+∉	notin
+∋	ni
+∩	cap
+∪	cup
+⊂	subset
+⊃	supset
+⊆	subseteq
+⊇	supseteq
+≠	ne
+≡	equiv
+≅	cong
+≈	approx
+≤	le
+≥	ge
+∀	forall
+∃	exists
+∨	or
+∧	and
+∨	vee
+∧	wedge
+¬	neg
+→	to
+∑	sum
+∏	prod
+∐	coprod
+∫	int
+∮	oint
