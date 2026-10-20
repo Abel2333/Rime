@@ -1,0 +1,10 @@
+# luna_pinyin_tw.custom.yaml
+#
+# 朙月拼音·臺灣正體 的方案补丁：词库换成个人主词表 lazyabel。
+# 本方案与朙月拼音共用同一套拼音编码，可直接共用词表。
+#
+# 于重新部署后生效。
+
+patch:
+  "translator/dictionary": lazyabel
+  "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/

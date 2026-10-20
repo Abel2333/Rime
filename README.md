@@ -7,7 +7,7 @@
 | 路径 | 作用 |
 |---|---|
 | `lazyabel.dict.yaml` | **主词表**。只放自己的词条，公共词库全部 import 进来 |
-| `luna_pinyin*.custom.yaml` | 朙月拼音系列方案的补丁：把 `translator/dictionary` 指向 `lazyabel` |
+| `luna_pinyin*.custom.yaml` | 朙月拼音系列方案的补丁：把 `translator/dictionary` 指向 `lazyabel`（`luna_pinyin` 与 `luna_pinyin_simp` 另有 emoji 开关 `show_es`） |
 | `default.custom.yaml` | 方案列表（6 个）、菜单每页 7 条、切换热键 |
 | `weasel.custom.yaml` | 小狼毫皮肤设置，**仅 Windows 读取**，Linux 下无副作用 |
 | `dicts/` | 自制与第三方词库，见下表 |
@@ -28,7 +28,7 @@
 
 ```
 输入编码
-  └─ 方案 schema（当前 luna_pinyin / luna_pinyin_simp；tw / fluency 尚未接入）
+  └─ 方案 schema（luna_pinyin / luna_pinyin_simp / luna_pinyin_tw / luna_pinyin_fluency，四者共用同一张词表）
        └─ translator/dictionary = lazyabel      ← 由各 *.custom.yaml 指定
             ├─ luna_pinyin.extended             （本地文件，已含下列四张）
             │    ├─ luna_pinyin                 （系统自带 + essay.txt 八股文）

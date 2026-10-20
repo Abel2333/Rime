@@ -1,33 +1,29 @@
-# luna_pinyin.custom.yaml
+# luna_pinyin_simp.custom.yaml
 #
-# 補靪功能：將朙月拼音的詞庫修改爲朙月拼音擴充詞庫
+# 朙月拼音·简化字 的方案补丁。
+#   1. 词库换成个人主词表 lazyabel（见 lazyabel.dict.yaml）
+#   2. 补上与 luna_pinyin.custom.yaml 一致的 emoji 开关
 #
-# 作者：瑾昀 <cokunhui@gmail.com>
-#
-# 部署位置：
-# ~/.config/ibus/rime  (Linux)
-# ~/Library/Rime  (Mac OS)
-# %APPDATA%\Rime  (Windows)
-#
-# 於重新部署後生效
-#
-#
-# 注意：本補靪適用於所有朙月拼音系列方案（「朙月拼音」、「朙月拼音·简化字」、「朙月拼音·臺灣正體」、「朙月拼音·語句流」）。
-# 只須將本 custom.yaml 的前面名字改爲對應的輸入方案名字然後放入用戶文件夾重新部署即可。如 luna_pinyin_simp.custom.yaml。
-# 雙拼用戶請使用 double_pinyin.custom.yaml。
-#
-#
-# 附朙月拼音系列方案與其對應的 id 一覽表：
-# 輸入方案	id
-# 朙月拼音	luna_pinyin
-# 朙月拼音·简化字	luna_pinyin_simp
-# 朙月拼音·臺灣正體	luna_pinyin_tw
-# 朙月拼音·語句流	luna_pinyin_fluency
-#
+# 本方案只输出简体，故不设 simplification 开关。
+# 于重新部署后生效。
 
 patch:
-  # 載入朙月拼音擴充詞庫
+  # 載入個人主詞表
   "translator/dictionary": lazyabel
-  # 改寫拼寫運算，使得含西文的詞彙（位於 luna_pinyin.cn_en.dict.yaml 中）不影響簡拼功能（注意，此功能只適用於朙月拼音系列方案，不適用於各類雙拼方案）
-  # 本條補靪只在「小狼毫 0.9.30」、「鼠鬚管 0.9.25 」、「Rime-1.2」及更高的版本中起作用。
+
+  # 改寫拼寫運算，使含西文的詞彙（luna_pinyin.cn_en）不影響簡拼功能
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
+
+  # 啓用 emoji
+  switches/@next:
+    name: show_es
+    reset: 0
+    states: [😔, 😀]
+
+  'engine/filters/@before 0':
+    simplifier@es_conversion
+
+  es_conversion:
+    opencc_config: emoji_symbols.json
+    option_name: show_es
+    tips: all
