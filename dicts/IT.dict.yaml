@@ -13,7 +13,7 @@ use_preset_vocabulary: true
 ...
 
 Java	java	100
-C++	c==	100
+C++	cpp	100
 Cpp	cpp	100
 Python	py	100
 Lua	lua	100

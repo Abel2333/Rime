@@ -19,36 +19,34 @@ import_tables:
   - dicts/chinese_classic
 ...
 
-番劇	fan ju	4
-紫垣	zi huan	6
-紫薇垣	zi wei huan	6
-垣	huan	8
-蒐	sou	4
-范數	fan shu	4
-丈育	zhang yu	3
-殘差	can cha	3
-前馈	qian kui	2
-逮蝦戶	dai xia hu	3
-績點	ji dian	4
-掩码	yan ma	1
-歌照唱舞照跳	ge zhao chang wu zhao tiao	2
-飯點	fan dian	4
-底料	di liao	3
-師父	shi fu	3
-師傅	shi fu	4
-師兄	shi xiong	3
-師侄	shi zhi	5
-顶盔贯甲	ding kui guan jia	1
-裝彈槍管獰猛龍	zhuang dan qiang guan ning meng long	1
-裝彈槍管檸檬茶	zhaung dan qiang guan ning meng cha	1
+番劇	fan ju	80000
+紫垣	zi yuan	120000
+紫微垣	zi wei yuan	120000
+垣	yuan	160000
+蒐	sou	80000
+范數	fan shu	80000
+丈育	zhang yu	60000
+殘差	can cha	60000
+前馈	qian kui	40000
+逮蝦戶	dai xia hu	60000
+績點	ji dian	80000
+掩码	yan ma	20000
+歌照唱舞照跳	ge zhao chang wu zhao tiao	40000
+飯點	fan dian	80000
+底料	di liao	60000
+師父	shi fu	60000
+師傅	shi fu	80000
+師兄	shi xiong	60000
+師侄	shi zhi	100000
+顶盔贯甲	ding kui guan jia	20000
+裝彈槍管獰猛龍	zhuang dan qiang guan ning meng long	20000
+裝彈槍管檸檬茶	zhuang dan qiang guan ning meng cha	20000
 
-緊箍	jin gu	5
-金箍	jin gu	5
-禁箍	jin gu	5
-廣智	guang zhi	2
-廣謀	guang mou	2
-金池	jin chi	2
-虎先鋒	hu xian feng	2
-黃風	huang feng	2
-
-Please let me know if you have any questions.	pq	1
+緊箍	jin gu	100000
+金箍	jin gu	100000
+禁箍	jin gu	100000
+廣智	guang zhi	40000
+廣謀	guang mou	40000
+金池	jin chi	40000
+虎先鋒	hu xian feng	40000
+黃風	huang feng	40000
